@@ -15,7 +15,8 @@
 │   ├── claus-logo.png     ← logotip (transparent) per a reutilització
 │   ├── favicon.png        ← icona de pestanya (el globus)
 │   ├── hero-earth.jpg     ← imatge de portada  (cal afegir-la, vegeu més avall)
-│   └── afons-canal.jpg    ← imatge d'«A fons»  (cal afegir-la, vegeu més avall)
+│   ├── afons-canal.jpg    ← imatge d'«A fons»  (cal afegir-la, vegeu més avall)
+│   └── focus-banya.jpg    ← imatge del focus regional  (cal afegir-la, vegeu més avall)
 └── README.md
 ```
 
@@ -30,10 +31,12 @@ El logotip ja va **incrustat** dins de `index.html`, però les dues fotografies 
 ```bash
 curl -L "https://commons.wikimedia.org/wiki/Special:FilePath/The_earth_at_night.jpg?width=2200" -o assets/hero-earth.jpg
 curl -L "https://commons.wikimedia.org/wiki/Special:FilePath/New_Suez_Canal_aerial.jpeg?width=1500" -o assets/afons-canal.jpg
+curl -L "https://commons.wikimedia.org/wiki/Special:FilePath/Ethiopia_hornafrica.jpg?width=1280" -o assets/focus-banya.jpg
 ```
 
 - `hero-earth.jpg` — *Terra de nit* (NASA, domini públic)
 - `afons-canal.jpg` — *Canal de Suez, vista aèria* (NASA, domini públic)
+- `focus-banya.jpg` — *La Banya d'Àfrica, Blue Marble* (NASA, domini públic)
 
 Comprova que `index.html` es veu bé obrint-lo al navegador **abans** de pujar-lo.
 
